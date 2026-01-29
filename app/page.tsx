@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-center gap-8 py-32 px-16 bg-white dark:bg-black">
+    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-zinc-900">
+      <div className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-center gap-8 py-32 px-16 bg-white dark:bg-black">
         <svg
           viewBox="0 0 69 26"
           fill="none"
@@ -43,7 +43,7 @@ export default function Home() {
             Ready for your first task
           </h1>
         </div>
-      </main>
+      </div>
     </div>
   );
 }
